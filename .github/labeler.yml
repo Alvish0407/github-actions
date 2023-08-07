@@ -1,0 +1,20 @@
+android-manifest:
+  - android/app/src/**/AndroidManifest.xml
+
+ios-podfile:
+  - ios/podfile
+
+widget-test:
+  - test/widget_test.dart
+
+frontend:
+  - lib/
+
+yaml:
+  - pubspec.yaml
+
+assets:
+  - assets/**
+
+macos-plist:
+  - macos/Runner/*.plist
