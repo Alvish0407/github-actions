@@ -10,7 +10,7 @@ on:
   - pull_request_target
 
 jobs:
-  label:
+  triage:
     runs-on: ubuntu-latest
     permissions:
       contents: read
